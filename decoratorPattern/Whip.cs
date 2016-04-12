@@ -7,7 +7,7 @@
 		}
 
 		public override string Description {
-			get { return beverage.Description + ", Whip"; }
+			return beverage.Description() + ", Whip";
 		}
 
 		public override double Cost() {
