@@ -7,5 +7,9 @@
 		public override double Cost() {
 			return .89;
 		}
+		public override string Description()
+		{
+			return description;
+		}
 	}
 }
