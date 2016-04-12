@@ -8,7 +8,7 @@
 		{
 			return 1.99;
 		}
-		public override Description()
+		public override string Description()
 		{
 			return description;
 		}
