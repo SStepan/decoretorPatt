@@ -8,5 +8,9 @@
 		{
 			return 1.99;
 		}
+		public override Description()
+		{
+			return description;
+		}
 	}
 }
