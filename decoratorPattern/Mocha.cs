@@ -1,5 +1,5 @@
 ﻿namespace decoratorPattern {
-	public class Mocha : CondimentDecorator {
+	public class Mocha : Beverage {
 		Beverage beverage;
 
 		public Mocha(Beverage beverage)
@@ -8,7 +8,7 @@
 		}
 
 		public override string Description {
-			get { return beverage.Description + ", Mocha";}
+			get { return beverage.Description() + ", Mocha";}
 		}
 
 		public override double Cost() {
